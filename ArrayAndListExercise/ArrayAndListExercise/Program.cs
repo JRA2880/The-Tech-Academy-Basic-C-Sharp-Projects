@@ -90,7 +90,7 @@ namespace ArrayAndListExercise
             Console.Write("Please enter a number to display a famous video game character from the list >> ");
             input = Console.ReadLine();
             k = Convert.ToInt32(input);
-            if (k <= 5)
+            if (k < 5)
             {
                 Console.WriteLine("The famous video game character at index {0} is " + vgCharacters[k],k);
 
