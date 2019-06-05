@@ -11,38 +11,61 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Project8StringListExercise3
-{
     class Program
     {
         static void Main()
         {
-            List<string> creatureList = new List<string>() {"jabberwocky","minotaur","ogre","dragon","kraken","cyclops","amarok", "camazotz", "erymanthian boar", "gogmagog", "hecatoncheires", "ogopogo","minotaur","sansquatch","yeti","skunk ape","mothman"};
-            string listItem;
-            int index;
+            List<string> creatureList = new List<string>() { "minotaur", "dragon", "kraken", "cyclops", "amarok", "camazotz", "gogmagog", "hecatoncheires", "ogopogo", "minotaur" };
+            List<string> duplicateCheck = new List<string>();
 
-            Console.WriteLine("Please enter the name of a mythical creature to determine if it is on the creature list >> ");
-            listItem = Console.ReadLine();
-            Console.WriteLine();
-
-            foreach(string item in creatureList)
-            {   index = creatureList.FindIndex(a => a.Contains(listItem));
-                if (index >= 0)
-                {
-                    Console.WriteLine("Creature {0} already appears on the creature list at index {1}.", listItem, index);
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Sorry, creature {0} does not appear on the list.", listItem);
-                    break;
-                }
-                    
+            foreach (string creature in creatureList)
+        { 
+            if (!duplicateCheck.Contains(creature))
+            {
+                Console.WriteLine(creature + " - has not appeared in the list.");
             }
+            else
+            {
+                Console.WriteLine(creature + " - has already appeared on the list.");
+            }
+            duplicateCheck.Add(creature);
         }
+
+
+
+
+
+        ////for (i = 0; i < creatureList.Count; i++)
+        //{
+        //    Console.WriteLine(creatureList[i]);
+        //}
+
+
+
+
+
+
+
+        //int index;
+        //index = creatureList.FindIndex(a => a.Contains(item));
+
+
+        //foreach (string item in creatureList)
+        //    {
+        //    index = creatureList.FindIndex(a => a.Contains(item));
+
+        //if (index <= 0)
+        //{
+
+
+        //    Console.WriteLine("Creature {0} appears on the list.", item);
+        //}
+        //else 
+        //{
+        //    Console.WriteLine("Creature {0} does not appear on the list.", item);
+        //}
     }
-}
+
+    }
+    
