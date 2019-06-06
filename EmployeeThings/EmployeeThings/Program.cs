@@ -70,6 +70,7 @@ namespace EmployeeThings
             Console.WriteLine("Before you know it, you have run out of time, and it is time for retirement...");
             Console.WriteLine("Or you die horribly on the job.  Whichever comes first.");
             Console.WriteLine("Now, go fix time.");
+            Console.ReadLine();
              
 
 
