@@ -24,7 +24,6 @@ namespace TwentyOne
             //game += player;
             //game -= player;
 
- 
             Deck deck = new Deck();
             deck.Shuffle(3);
 
@@ -35,6 +34,4 @@ namespace TwentyOne
             Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
         }
-
-    }
-}
+}    }
