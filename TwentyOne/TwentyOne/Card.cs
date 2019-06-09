@@ -10,7 +10,11 @@ namespace TwentyOne
     {
          public Suit Suit { get; set; }
          public Face Face { get; set; }
-       //public Order Order { get; set;}
+
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", Face, Suit);
+        }
 
     }
     public enum Suit
@@ -36,5 +40,4 @@ namespace TwentyOne
         King,
         Ace
     }
-    //public enum Order {}
 }
