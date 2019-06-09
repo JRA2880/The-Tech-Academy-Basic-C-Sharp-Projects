@@ -1,0 +1,11 @@
+Log: 45
+Log: 50
+Log: 60
+Log: 70
+Log: 80
+Log: 85
+Log: 100
+Log: 95
+Log: 62
+Log: 75
+Log: -1
