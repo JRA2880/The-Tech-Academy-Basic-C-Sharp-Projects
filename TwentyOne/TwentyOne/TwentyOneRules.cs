@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -18,7 +19,9 @@ namespace TwentyOne
             [Face.Seven] = 7,
             [Face.Eight] = 8,
             [Face.Nine] = 9,
+            [Face.Ten] = 10,
             [Face.Jack] = 10,
+            [Face.Queen] =10,
             [Face.King] = 10,
             [Face.Ace] = 1
         };
