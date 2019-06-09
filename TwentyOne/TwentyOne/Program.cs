@@ -50,7 +50,7 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            
+
             Console.WriteLine("Welcome to the Grand Hotel and Cansino. Let's start by telling me your name >> ");
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today? ");
