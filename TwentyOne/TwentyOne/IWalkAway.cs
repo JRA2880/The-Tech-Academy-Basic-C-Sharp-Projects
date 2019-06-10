@@ -11,4 +11,5 @@ namespace TwentyOne
         void WalkAway(Player player);
 
     }
+
 }

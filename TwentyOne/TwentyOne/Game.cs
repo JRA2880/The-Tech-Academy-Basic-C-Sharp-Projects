@@ -13,7 +13,7 @@ namespace TwentyOne
         public List<Player> Players { get { return _players; } set { _players = value; } }
 
         public string Name { get; set; }
-        public Dictionary<Player,int> Bets { get { return _bets; } set { _bets = value;} }
+        public Dictionary<Player, int> Bets { get { return _bets; } set { _bets = value; } }
 
         public abstract void Play();
         public virtual void ListPlayers()

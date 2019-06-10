@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace TwentyOne
 {
@@ -21,7 +20,7 @@ namespace TwentyOne
             [Face.Nine] = 9,
             [Face.Ten] = 10,
             [Face.Jack] = 10,
-            [Face.Queen] =10,
+            [Face.Queen] = 10,
             [Face.King] = 10,
             [Face.Ace] = 1
         };
@@ -35,7 +34,7 @@ namespace TwentyOne
             if (result.Length == 1)
             {
                 return result;
-            } 
+            }
             for (int i = 1; i < result.Length; i++)
             {
                 value += (i * 10);
@@ -56,8 +55,8 @@ namespace TwentyOne
                 return false;
             }
 
-        } 
-        public static bool IsBusted(List<Card>Hand)
+        }
+        public static bool IsBusted(List<Card> Hand)
         {
             int value = GetAllPossibleHandValues(Hand).Min();
             if (value > 21)
@@ -68,11 +67,11 @@ namespace TwentyOne
             {
                 return false;
             }
-        } 
+        }
         public static bool ShouldDealerStay(List<Card> Hand)
         {
             int[] possibleHandValues = GetAllPossibleHandValues(Hand);
-            foreach(int value in possibleHandValues)
+            foreach (int value in possibleHandValues)
             {
                 if (value > 16 && value < 22)
                 {
@@ -80,7 +79,7 @@ namespace TwentyOne
                 }
             }
             return false;
-        } 
+        }
         public static bool? CompareHands(List<Card> PlayerHand, List<Card> DealerHand)
         {
             int[] playerResults = GetAllPossibleHandValues(PlayerHand);
@@ -93,14 +92,15 @@ namespace TwentyOne
             {
                 return true;
             }
-            else if(playerScore < dealerScore)
+            else if (playerScore < dealerScore)
             {
                 return false;
-            } 
+            }
             else
             {
                 return null;
             }
         }
     }
+
 }
