@@ -11,6 +11,7 @@ namespace Casino
     {
         static void Main(string[] args)
         {
+            Player newPlayer = new Player("Jesse");
 
             Console.WriteLine("Welcome to the Grand Hotel and Cansino. Let's start by telling me your name >> ");
             string playerName = Console.ReadLine();

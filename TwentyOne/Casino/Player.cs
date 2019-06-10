@@ -5,9 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Casino
-{
+{  
     public class Player
     {
+        public Player(string name) : this(name, 100)
+        {
+        }
         public Player(string name, int beginningBalance)
         {
             Hand = new List<Card>();
@@ -20,6 +23,7 @@ namespace Casino
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+        public Guid Id { get; set; }
 
         public bool Bet(int amount)
         {
