@@ -34,3 +34,53 @@ Two of Spades
 6/10/2019 11:56:10 PM
 Queen of Spades
 
+f42a46ed-8b8c-4303-9147-d818c825cbf0
+6/11/2019 6:46:48 PM
+King of Hearts
+
+6/11/2019 6:46:48 PM
+Seven of Diamonds
+
+6/11/2019 6:46:48 PM
+Nine of Diamonds
+
+6/11/2019 6:46:48 PM
+Jack of Diamonds
+
+6/11/2019 6:46:50 PM
+Queen of Clubs
+
+6/11/2019 6:46:50 PM
+Eight of Clubs
+
+6/11/2019 6:46:50 PM
+Four of Hearts
+
+6/11/2019 6:46:50 PM
+Queen of Spades
+
+2647faca-d73b-4fcd-8576-c138f6816e2c
+6/11/2019 6:48:50 PM
+Jack of Diamonds
+
+6/11/2019 6:48:50 PM
+Jack of Spades
+
+6/11/2019 6:48:50 PM
+King of Hearts
+
+6/11/2019 6:48:50 PM
+Two of Clubs
+
+6/11/2019 6:48:52 PM
+Eight of Hearts
+
+6/11/2019 6:48:52 PM
+Nine of Hearts
+
+6/11/2019 6:48:52 PM
+Two of Hearts
+
+6/11/2019 6:48:52 PM
+Four of Clubs
+
