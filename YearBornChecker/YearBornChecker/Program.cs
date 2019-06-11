@@ -5,7 +5,7 @@
 //
 //IN A CONSOLE APP, CREATE CODE THAT DOES THE FOLLOWING:
 //
-//1.) Ask the user for his age.
+//1.) Ask the user for his or her age.
 
 //2.) Display the year user born.
 
@@ -57,7 +57,11 @@ namespace YearBornChecker
                         throw new Exception();
                     }
                     currentAge = Age(userBirthDate);
+                    Console.WriteLine();
+                    Console.WriteLine("You were born in {0}.", userBirthDate.ToString());
+                    Console.WriteLine();
                     Console.WriteLine("Your current age is {0} in {1}.", currentAge.ToString(),thisYEAR.ToString());
+                    Console.WriteLine();
                 }            
             }
             catch(InvalidYearException)
